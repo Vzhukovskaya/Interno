@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interno</title>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!-- Block Header -->
+    <header>
+        <div class="container">
+            <div class="header">
+                <a href="index.html" class="logo">
+                    <img src="images/main.logo.svg" alt="Interno">
+                </a>
+                <nav>
+                    <ul class="header_nav">
+                        <li class="header_item">
+                            <a href="index.html" class="header_link">Home</a>
+                        </li>
+                        <li class="header_item">
+                            <a href="portfolio.html" class="header_link">Our Projects</a>
+                        </li>
+                        <li class="header_item">
+                            <a href="blog.html" class="header_link">Blog</a>
+                        </li>
+                        <li class="header_item">
+                            <a href="contact.html" class="header_link">Contact</a>
+                        </li>
+                        <li class="header_item">
+                            <button class="header_vector" onclick="openModal()">
+                                <img src="/images/vector.h.svg" alt="">
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="header__menu" onclick="openModalMenu()"></button>
+            </div>
+        </div>
+    </header>
+    <!-- Second Page -->
+    <div class="thumb">
+        <img class="thumb_img" src="images/portfolio.bg.png" alt="" class="thumb_img">
+        <div class="thumb_info">
+            <h2 class="title thumb_title">Our Project</h2>
+            <ul class="breadcrumbs">
+                <li><a href="">Home</a></li>
+                <li>Project</li>
+            </ul>
+        </div>
+    </div>
+    <div class="page">
+        <div class="container">
+            <div class="tabs">
+                <button class="tab-link active " onclick="openTab(event, 'tab1')">Bathroom</button>
+                <button class="tab-link" onclick="openTab(event, 'tab2')">Bed Room</button>
+                <button class="tab-link" onclick="openTab(event, 'tab3')">Kitchan</button>
+                <button class="tab-link" onclick="openTab(event, 'tab4')">Living Area</button>
+            </div>
+            <div id="tab1" class="tab-content" style="display: block;">
+                <div class="tab-content_box">
+                    <div class="tab_content_thumb">
+                        <img src="/images/portfolio.01.png" alt="">
+                    </div>
+                    <div class="tab_content_thumb">
+                        <img src="/images/portfolio.02.png" alt="">
+                    </div>
+                    <div class="tab_content_thumb">
+                        <img src="/images/portfolio.03.png" alt="">
+                    </div>
+                    <div class="tab_content_thumb">
+                        <img src="/images/portfolio.04.png" alt="">
+                    </div>
+                    <div class="tab_content_thumb">
+                        <img src="/images/portfolio.05.png" alt="">
+                    </div>
+                    <div class="tab_content_thumb">
+                        <img src="/images/portfolio.06.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="tab2" class="tab-content">
+                <div class="tab-content_box">
+                    <div class="tab_content_thumb">
+                        <img src="/images/portfolio.01.png" alt="">
+                    </div>
+                    <div class="tab_content_thumb">
+                        <img src="/images/portfolio.02.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="tab3" class="tab-content">
+                <div class="tab-content_box">
+                    <div class="tab_content_thumb">
+                        <img src="/images/portfolio.04.png" alt="">
+                    </div>
+                    <div class="tab_content_thumb">
+                        <img src="/images/portfolio.05.png" alt="">
+                    </div>
+                    <div class="tab_content_thumb">
+                        <img src="/images/portfolio.06.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="tab4" class="tab-content">
+                <div class="tab-content_box">
+                    <div class="tab_content_thumb">
+                        <img src="/images/portfolio.02.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Block Footer -->
+    <footer class="bg">
+        <div class="container">
+            <div class="footer">
+                <a href="#" class="logo">
+                    <img src="images/main.logo.svg" alt="Interno">
+                </a>
+                <div class="footer_info">
+                    <p class="footer_address">
+                        55 East Birchwood Ave.<br>Brooklyn, New York 11201
+                    </p>
+                    <a href="mailto:contact@interno.com">
+                        contact@interno.com
+                    </a>
+                    <a href="tel:+1234567890">
+                        (123) 456 - 7890
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="overlay" id="overlayMenu">
+        <div class="modal">
+            <div class="container">
+                <div class="modal_content">
+                    <nav>
+                        <ul class="header_nav">
+                            <li class="header_item">
+                                <a href="index.html" class="header_link">Home</a>
+                            </li>
+                            <li class="header_item">
+                                <a href="portfolio.html" class="header_link">Our Projects</a>
+                            </li>
+                            <li class="header_item">
+                                <a href="blog.html" class="header_link">Blog</a>
+                            </li>
+                            <li class="header_item">
+                                <a href="contact.html" class="header_link">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <button type="button" class="modal_close" onclick="closeModalMenu()"></button>
+            </div>
+        </div>
+    </div>
+    <script src="script/swiper-bundle.min.js"></script> 
+    <script src="script/script.js"></script>
+</body>
+</html>
