@@ -69,6 +69,17 @@ button {
     display: flex;
     cursor: pointer;
 }
+.header_menu {
+    display: none;
+    width: 52px;
+    height: 52px;
+    background-image: url(../images/mobile.manu.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
 /* First Page */
 .hero {
     position: relative;
@@ -1327,6 +1338,10 @@ left: 0;
     }
     .about_text {
         flex-basis: 45%;
+    }
+    .about-call_text p {
+        color: #292F36;
+        text-decoration: none;
     }
     .about_thumb {
         flex-basis: 50%;
