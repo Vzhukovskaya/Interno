@@ -9,7 +9,7 @@ body {
     /* font-family: 'DM Serif Display', serif; */
     font-family: 'Jost', sans-serif;
     background-image: url(../images/line.bg.svg);
-    background-repeat-x: no-repeat;
+    background-repeat: no-repeat;
     background-position: center;
     font-size: 22px;
     line-height: 1.5;
