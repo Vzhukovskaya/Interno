@@ -1,1 +1,1 @@
-GitHub Pages https://vzhukovskaya.github.io/Interno/ 
+GitHub Pages - Interno Project https://vzhukovskaya.github.io/Interno/ 
