@@ -9,6 +9,9 @@ Interno is a robust and innovative software solution designed to streamline inte
 - **Data Analysis**: Advanced analytics to understand and optimize business operations.
 - **User-Friendly Interface**: Easy-to-navigate interface ensuring a smooth user experience.
 
+## Additional Information
+Demo Website: [If available] https://vzhukovskaya.github.io/Interno/
+
 ## Installation
 To install Interno, follow these steps:
 ```bash
@@ -34,6 +37,3 @@ Special thanks to [any special mentions, if applicable].
 Contact
 For questions, feedback, or support, please contact [Your Contact Information].
 
-Additional Information
-Website: [If available]
-Documentation: [Link to the documentation, if available]
