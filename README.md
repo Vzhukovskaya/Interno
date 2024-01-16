@@ -10,7 +10,7 @@ Interno is a robust and innovative software solution designed to streamline inte
 - **User-Friendly Interface**: Easy-to-navigate interface ensuring a smooth user experience.
 
 ## Additional Information
-Demo Website: [If available] https://vzhukovskaya.github.io/Interno/
+Demo website available: https://vzhukovskaya.github.io/Interno/
 
 ## Installation
 To install Interno, follow these steps:
